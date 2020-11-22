@@ -13,12 +13,12 @@ body {
     font-weight: lighter;
     font-style: oblique;
     color: rgb(70, 70, 70);
+    margin:50px
 }
 
 h3 {
     color: rgb(70, 70, 70);
     font-style: oblique;
-    padding: auto;
     float:center;
     text-align: center;
 }
@@ -63,17 +63,15 @@ ul {
 .cat.blog {
     color:rgb(70, 70, 70);
     text-decoration: none;
-    overflow : auto;
-    margin: 20,30,20,30;
-    text-align: center;
     padding: 5%;
+    margin-top:5px;
 }
 .ong {
     text-align: justify ;
     padding-left: 20;
-    padding:20%;
+    padding:15%;
     margin-right: 10%;
-    margin-bottom: 20%;;
+    margin-bottom: 5px;;
     overflow : auto;
     padding-top: 10px;
     font-size: 20px;
@@ -87,6 +85,7 @@ ul {
     margin-bottom: 45px;
     background-color: rgb(204, 204, 204) ;
     border-radius: 30%;
+    width: auto;
 }
 .menu {
     font-family:'Lato', sans-serif; ;
