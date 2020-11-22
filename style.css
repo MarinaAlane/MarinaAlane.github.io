@@ -7,7 +7,7 @@ h1 {
 }
 
 body {
-    background-color: rgba(255, 233, 213, 0.945);
+    background-color: rgba(231, 228, 228, 0.945);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-style: oblique;
@@ -43,7 +43,7 @@ h2 {
     float: left; 
     padding: 10px;
     margin-top: 125px;
-    background-color: rgb(242, 247, 234) ;
+    background-color: rgb(204, 204, 204) ;
     border-radius: 30%;
 }
 
@@ -53,5 +53,19 @@ ul {
     padding-top: 20px;
     padding-right: auto;
     text-align: justify;
-    margin-left: 45%;
+    margin-left: 40%;
+}
+
+.cat.blog {
+    color:rgb(70, 70, 70);
+    text-decoration: none;
+    overflow : auto;
+    margin: 20,30,20,30;
+    text-align: center;
+    padding: 5%;
+}
+.ong {
+    text-align: justify ;
+    padding-left: 20%;
+    margin-left: 20%;
 }
