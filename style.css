@@ -4,6 +4,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #454545;
     text-align: center;
+    padding-top: 45px;
 }
 
 body {
@@ -12,8 +13,6 @@ body {
     font-weight: lighter;
     font-style: oblique;
     color: rgb(70, 70, 70);
-    text-align: auto;
-    margin-left: 2px;
 }
 
 h3 {
@@ -32,16 +31,21 @@ h2 {
     text-align: center;
 }
 
-.about {
+.about{
     overflow : auto;
-    margin: 20,30,20,30;
-    text-align: center;
-    padding: 5%;
+    padding-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    text-align: justify;
+    padding: 20%;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
 
 }
 #foto {
     float: left; 
-    padding: 10px;
+    padding: 5px;
     margin-top: 125px;
     background-color: rgb(204, 204, 204) ;
     border-radius: 30%;
@@ -66,6 +70,29 @@ ul {
 }
 .ong {
     text-align: justify ;
-    padding-left: 20%;
-    margin-left: 20%;
+    padding-left: 20;
+    padding:20%;
+    margin-right: 10%;
+    margin-bottom: 20%;;
+    overflow : auto;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+.photo_ong {
+    float: right;;
+    padding: 5px;
+    margin-bottom: 45px;
+    background-color: rgb(204, 204, 204) ;
+    border-radius: 30%;
+}
+.menu {
+    font-family:'Lato', sans-serif; ;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    color:rgb(70, 70, 70);
+    text-decoration: none;
 }
