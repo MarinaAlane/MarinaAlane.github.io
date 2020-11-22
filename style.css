@@ -2,11 +2,56 @@ h1 {
     font-weight: lighter;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(100, 100, 100);
+    color: #454545;
+    text-align: center;
 }
 
 body {
-    background-color: rgba(252, 196, 143, 0.945);
+    background-color: rgba(255, 233, 213, 0.945);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: inherit;
+    font-weight: lighter;
+    font-style: oblique;
+    color: rgb(70, 70, 70);
+    text-align: auto;
+    margin-left: 2px;
+}
+
+h3 {
+    color: rgb(70, 70, 70);
+    font-style: oblique;
+    padding: auto;
+    float:center;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(70, 70, 70);
+    overflow: auto;
+    padding-top: 20px;
+    padding-right: auto;
+    text-align: center;
+}
+
+.about {
+    overflow : auto;
+    margin: 20,30,20,30;
+    text-align: center;
+    padding: 5%;
+
+}
+#foto {
+    float: left; 
+    padding: 10px;
+    margin-top: 125px;
+    background-color: rgb(242, 247, 234) ;
+    border-radius: 30%;
+}
+
+ul {
+    padding-left: 30px;
+    overflow: auto;
+    padding-top: 20px;
+    padding-right: auto;
+    text-align: justify;
+    margin-left: 45%;
 }
