@@ -2,7 +2,7 @@ h1 {
     font-weight: lighter;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -10,25 +10,33 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-style: oblique;
-    color: rgb(100, 100, 100);
+    color: rgb(53, 50, 48);
     text-align: center;
+    margin-left: 2px;
 }
 
 h3 {
-    color: rgb(102, 101, 100);
+    color: rgb(48, 47, 47);
     background-color: lavender;
     box-shadow: 20px, 5px, 10px rgba(0, 0, 0, 0.884);
     font-style: oblique;
     text-align: center;
-    border-radius: 20pt;
 }
 
 h2 {
     color: rgb(102, 101, 100);
-    background-color: lavender;
-    box-shadow: rgba(0, 0, 0, 0.884);
     font-style: oblique;
-    text-align: center;
-    border-radius: 20pt;
+    padding-top: 20px;
 }
 
+.about {
+    overflow : auto;
+    margin: 20,30,20,30;
+    text-align: justify;
+
+}
+#foto {
+    float: left; 
+    padding: 20px;
+    margin-top: 45px;
+}
